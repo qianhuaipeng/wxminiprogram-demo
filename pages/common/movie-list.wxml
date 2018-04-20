@@ -1,0 +1,5 @@
+<template name="movie-list">
+  <view class='list'>
+     
+  </view>
+</template>

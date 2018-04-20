@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/movie/index",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/profile/index",
+    "pages/list/list",
+    "pages/item/item"
+  
+  ],
+  "tabBar": {
+    "borderStyle": "white",
+    "list": [
+      {
+        "text": "豆瓣",
+        "pagePath": "pages/index/index",
+        "iconPath": "images/board.png",
+        "selectedIconPath": "images/board-actived.png"
+      },
+      {
+        "text": "我",
+        "pagePath": "pages/profile/index",
+        "iconPath": "images/profile.png",
+        "selectedIconPath": "images/profile-actived.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+}
