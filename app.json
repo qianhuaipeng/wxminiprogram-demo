@@ -5,17 +5,26 @@
     "pages/logs/logs",
     "pages/profile/index",
     "pages/list/list",
-    "pages/item/item"
-  
+    "pages/item/item",
+    "pages/search/search"
   ],
   "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#000000",
     "borderStyle": "white",
+    "backgroundColor": "#f8f9fb",
     "list": [
       {
         "text": "豆瓣",
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/movie/index",
         "iconPath": "images/board.png",
         "selectedIconPath": "images/board-actived.png"
+      },
+      {
+        "text": "搜索",
+        "pagePath": "pages/search/search",
+        "iconPath": "images/search.png",
+        "selectedIconPath": "images/search-actived.png"
       },
       {
         "text": "我",
@@ -26,9 +35,11 @@
     ]
   },
   "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#40586d",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "电影 « 豆瓣",
+    "backgroundColor": "#f8f9fb",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": false
   }
 }

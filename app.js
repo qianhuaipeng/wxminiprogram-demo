@@ -51,7 +51,7 @@ App({
   onPageNotFound: function(option){
     //console.error("error")
     wx.redirectTo({
-      url: 'pages/index/index'
+      url: 'pages/movie/index'
     })
   },
   globalData: {

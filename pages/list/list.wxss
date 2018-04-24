@@ -1,3 +1,66 @@
+view {
+  height: 100%;
+}
+
+.list {
+  height: 100%;
+}
+
+.item {
+  padding: 20rpx 40rpx;
+  display: flex;
+  border-bottom: 1rpx solid #eee;
+  cursor: pointer;
+}
+
 .poster {
-  
+  height: 150rpx;
+  width: 120rpx;
+}
+
+.meta {
+  padding: 20rpx 40rpx;
+  width: 60%
+}
+
+.title {
+  font-size: 32rpx;
+  display: block;
+  margin-bottom: 15rpx;
+}
+
+.sub-title {
+  font-size: 24rpx;
+  color: #c0c0c0;
+  display: block;
+  margin-bottom: 15rpx;
+}
+
+.artists {
+  font-size: 24rpx;
+  color: #999;
+}
+
+.rating text{ 
+  background-color: rgba(247, 76, 49, 0.8);
+  display: inline-block;
+  width: 40rpx;
+  font-size: 29rpx;
+  text-align: center;
+  color: #fff;
+  padding: 10rpx;
+  border-radius: 20rpx;
+}
+
+.tips{
+  font-size: 28rpx;
+  text-align: center;
+  padding: 50rpx;
+  color: #ccc;
+}
+
+.tips image {
+  height: 50rpx;
+  width: 50rpx;
+  margin-right: 20rpx;
 }
